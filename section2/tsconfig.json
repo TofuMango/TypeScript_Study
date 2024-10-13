@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true,
+        // 엄격한 null검사 X
+        // "strictNullChecks": false,
+        "skipLibCheck": true,
+        // 개별모둘로 취급
+        "moduleDetection": "force",
+    },
+    "include": [
+        "src"
+    ],
+}
